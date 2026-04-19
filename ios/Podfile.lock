@@ -1,0 +1,59 @@
+PODS:
+  - device_info_plus (0.0.1):
+    - Flutter
+  - disk_space_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - purchases_flutter (9.16.1):
+    - Flutter
+    - PurchasesHybridCommon (= 17.55.1)
+  - PurchasesHybridCommon (17.55.1):
+    - RevenueCat (= 5.67.1)
+  - RevenueCat (5.67.1)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - disk_space_plus (from `.symlinks/plugins/disk_space_plus/ios`)
+  - Flutter (from `Flutter`)
+  - purchases_flutter (from `.symlinks/plugins/purchases_flutter/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - PurchasesHybridCommon
+    - RevenueCat
+
+EXTERNAL SOURCES:
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  disk_space_plus:
+    :path: ".symlinks/plugins/disk_space_plus/ios"
+  Flutter:
+    :path: Flutter
+  purchases_flutter:
+    :path: ".symlinks/plugins/purchases_flutter/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
+
+SPEC CHECKSUMS:
+  device_info_plus: bf2e3232933866d73fe290f2942f2156cdd10342
+  disk_space_plus: 47b68514830946bee63abfc90c892610fae735d6
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  purchases_flutter: ae3a2d063e60e368484132d68c31d262a9ae3f13
+  PurchasesHybridCommon: ecd9d7c586287625f1225b8de5e24c1021502270
+  RevenueCat: 9357239a9f0978285e68983637b8a602e65c94f0
+  shared_preferences_foundation: 5086985c1d43c5ba4d5e69a4e8083a389e2909e6
+  sqflite_darwin: 5a7236e3b501866c1c9befc6771dfd73ffb8702d
+
+PODFILE CHECKSUM: ce2bd07e48ac0db9731a3eaa78d3ebaf7cbf8d25
+
+COCOAPODS: 1.16.2
